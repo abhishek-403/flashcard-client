@@ -9,10 +9,9 @@ import {
 } from "@nextui-org/react";
 import axios from "axios";
 import { useEffect, useRef, useState } from "react";
-import { SERVER_BASE_URL } from "../pages/Admin";
 import toast from "react-hot-toast";
-import { GrAdd, GrAddCircle } from "react-icons/gr";
 import { IoAddCircle } from "react-icons/io5";
+import { SERVER_BASE_URL } from "../pages/Admin";
 export function AddCardModal({
   isOpen,
   onOpen,

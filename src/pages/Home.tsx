@@ -1,13 +1,12 @@
+import { Button } from "@nextui-org/react";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
-import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Cards from "../components/Cards";
 import { ICard, SERVER_BASE_URL } from "./Admin";
-import { Button } from "@nextui-org/react";
 
 type Props = {};
 
